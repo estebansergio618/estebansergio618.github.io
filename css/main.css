@@ -336,7 +336,7 @@ img{
 }
 /*===== ABOUT =====*/
 .about__data{
-text-align: center;
+text-align: left;
 }
 .about__desc span{
 font-size: var(--h2-font-size);
@@ -347,6 +347,7 @@ color: var(--first-color);
  font-size: var(--h1-font-size);
  color: var(--first-color);
  display: block;
+ text-align: center;
 }
 
 .about__img{
@@ -379,6 +380,9 @@ color: var(--first-color);
   color:var(--first-color);
   margin-bottom: var(--mb-1);
   font-weight: var(--font-medium);
+}
+.quali__link{
+  font-size: var(--smaller-font-size);
 }
 
 .quali__icon, .quali__work{

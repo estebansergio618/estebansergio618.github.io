@@ -2,7 +2,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/png" href="assets/logo_ventana.svg">
+        <link rel="icon" type="image/png" href="assets/logo_ventana.png">
 
         <!-- ===== SWIPER CSS ===== -->
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
@@ -14,6 +14,7 @@
         <!-- ===== Fontawsome ICONS ===== -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+        <script src="https://kit.fontawesome.com/a0ff28f7f1.js" crossorigin="Sergio Esteban"></script>
 
         <!-- ===== CSS ===== -->
         <link rel="stylesheet" href="css/main.css">
@@ -29,14 +30,14 @@
         <!--===== HEADER =====-->
         <header class="l-header" id="header">
             <nav class="nav bd-container" id="navbar">
-                <a href="#" class="nav__logo">Estudiante-UBA</a>
+                <a href="#" class="nav__logo"><i class="fa-solid fa-robot"></i></a>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item"> <a href="#home" class="nav__link active--link">Home</a></li>
-                        <li class="nav__item"> <a href="#about" class="nav__link">Acerca de mi</a></li>
-                        <li class="nav__item"> <a href="#education" class="nav__link">Experiencia y Educación</a></li>
-                        <li class="nav__item"> <a href="#portfolio" class="nav__link">Portafolio</a></li>
-                        <li class="nav__item"> <a href="#contact" class="nav__link">Contacto</a></li>
+                        <li class="nav__item"> <a href="#about" class="nav__link">About me</a></li>
+                        <li class="nav__item"> <a href="#education" class="nav__link">Experience and Education</a></li>
+                        <li class="nav__item"> <a href="#portfolio" class="nav__link">Portfolio</a></li>
+                        <li class="nav__item"> <a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
                 <div class="nav__toggle" id="nav-toggle">
@@ -51,10 +52,10 @@
             <section class="home" id="home">
                 <div class="home__container bd-container bd-grid">
                     <div class="home__data">
-                        <span class="home__greeting">Hola, mi nombre es:</span>
+                        <span class="home__greeting">Hello, my name is:</span>
                         <h1 class="home__name">Sergio Esteban</h1>
-                        <span class="home__professional">Estudiante de <br> Ciencia de  Datos</span>
-                        <a download="CV-Esteban_Muñoz" href="pdf/CV-ESTEBAN_MUÑOZ..pdf" class="button button-light home__button">Download CV</a>
+                        <span class="home__professional">Data Science <br> Student</span>
+                        <a download="CV-Esteban_Muñoz" href="pdf/Sergio_Esteban Muñoz_Resume_28-12-2022-11-40-53.pdf" class="button button-light home__button">Download CV</a>
                     </div>
 
                     <div class="home__social">
@@ -85,22 +86,27 @@
 
             <!--===== ABOUT =====-->
             <section class="about section bd-container" id="about">
-                <span class="section-subtitle">Mi Historia</span>
-                <h2 class="section-title">Acerca de mí</h2>
+                <span class="section-subtitle">My history</span>
+                <h2 class="section-title">About me</h2>
                 <div class="about__container bd-grid">
                         <div class="about__data bd-grid">
-                            <p class="about__desc"><span>Hola,<br> </span>Actualmente estoy cursando la licenciatura en ciencia de datos. Durante los últimos años he acumulado experiencia en el desarrollo de múltiples competencias, la capacidad de trabajar en equipo, las habilidades de comunicación y liderazgo en grupos de trabajo.</p>
+                            <p class="about__desc">
+                                <span>Hi,<br> </span>
+                                I am currently pursuing a bachelor's degree in data science. During the last years I have accumulated experience
+                            </p>
                             <div>
-                                <span class="about__number"><-/></span>
-                                <span class="about__ach">Conocimientos teórico-practico en HTML, CSS y Javascript.</span>
+                                <span class="about__number"><i class="fa-solid fa-business-time"></i></span>
+                                <span class="about__ach">As a Data Engineer, Software Developer and React Developer</span>
                             </div>
                             <div>
-                                <span class="about__number">10101</span>
-                                <span class="about__ach">Base sólida en matemática y programación</span>
+                                <span class="about__number"><i class="fa-solid fa-computer"></i></span>
+                                <span class="about__ach">
+                                    In different programming languages and their libraries <br>
+                                    C#, VB, SQL, Bash, Python, TypeScript and Haskell</span>
                             </div>
                             <div>
-                                <span class="about__number"><-/></span>
-                                <span class="about__ach">Inglés intermedio</span>
+                                <span class="about__number"><i class="fa-solid fa-globe"></i></span>
+                                <span class="about__ach">In tools for processing large volumes of data and carrying out ETL processes <br>Hadoop and SQL Server Integration Services</span>
                             </div>
 
                         </div>
@@ -109,136 +115,151 @@
                 </div>
             </section>
 
-            <!--===== QUALIFICATION =====-->
+            <!--===== EXPERIENCE =====-->
             <section class="quali section bd-container" id="education">
-                <span class="section-subtitle">Experiencia y Educación</span>
-                <h2 class="section-title">-----------------------</h2>
+                <span class="section-subtitle">My formation</span>
+                <h2 class="section-title">Experience and Education</h2>
 
                 <div class="quali__container bd-grid">
                     <div class="quali__content">
                         <h2 class="quali__title">
                             <i class='bx bxs-briefcase-alt quali__title-icon' ></i>
-                            Trabajo y Competencias
+                            Experience
                         </h2>
 
                         <div class="bd-grid">
                             <div class="quali__data">
-                                <h3 class="quali__area">Clinica veterinaria Family Pets </h3>
+                                <span class="quali__area"><b>Data Engineer, </b></span>
+                                <a class="quali__link" href="http://corebi.com.ar/en/eng/">COREBI S.A. - Data & Analytics</a>
                                 <div class="quali__box">
                                     <span class="quali__work">
                                         <i class='bx bx-briefcase-alt quali__icon' ></i>
-                                        Recepción
+                                        Full Time - Capital Federal, Argentina
+                                        <ol>
+                                            <li>They sent me as an external data engineer to Telefónica Argentina to carry out the separation of Tuenti extractors in Altamira.</li>
+                                            <li>Performed processes ETL and specific Query's SQL in pseudocode which were tested in the company's data warehouse (BigQuery).</li>
+                                        </ol>
                                     </span>
                                     <span class="quali__work">
                                         <i class='bx bx-calendar-alt quali__icon' ></i>
-                                        May 2014 - Jan 2018
+                                        Oct 2022 - Now
                                     </span>
-
                                 </div>
                             </div>
 
 
                             <div class="quali__data">
-                                <h3 class="quali__area">CIIM-Competencia Iberoamericana Interuniversitaria de Matemáticas</h3>
+                                <span class="quali__area"><b>Software Developer, </b></span>
+                                <a class="quali__link" href="https://familypets.pe/">Clínica Veterinaria Family Pets</a>
                                 <div class="quali__box">
                                     <span class="quali__work">
                                         <i class='bx bx-briefcase-alt quali__icon' ></i>
-                                        12 puntos
+                                        Part Time - Lima, Perú
+                                        <ol>
+                                            <li>Creation of software for veterinary management with C# and Microsoft Azure SQL Database</li>
+                                            <li>Software specification, design and implementation</li>
+                                            <li>Design and implementation of the database</li>
+                                            <li>Automation of reports with VBA (Arima models, sales evolution, inventory controls, petty cash controls)</li>
+                                            <li>Website creation</li>
+                                        </ol>
                                     </span>
                                     <span class="quali__work">
                                         <i class='bx bx-calendar-alt quali__icon' ></i>
-                                        2020
+                                        Feb 2021 - Aug 2022
                                     </span>
 
                                 </div>
                             </div>
                         </div>
                     </div>
-
-
-
 
                     <div class="quali__content">
                         <h2 class="quali__title">
                             <i class='bx bx-library quali__title-icon' ></i>
-                              Educación
+                              Education
                         </h2 >
 
                         <div class="bd-grid">
                             <div class="quali__data">
-                                <h3 class="quali__area">Universidad de Buenos Aires</h3>
+                                <span class="quali__area"><b>Data Science, </b></span>
+                                <a class="quali__link" href="https://lcd.exactas.uba.ar/">Universidad de Buenos Aires</a>
                                 <div class="quali__box">
                                     <span class="quali__work">
                                         <i class='bx bxs-book quali__icon' ></i>
-                                        Licenciatura en Ciencia de Datos.
+                                        Faculty of Exact Sciences, Argentina
+                                        <br>
+                                        > Common basic cycle completed
                                     </span>
                                     <span class="quali__work">
                                         <i class='bx bx-calendar-alt quali__icon' ></i>
-                                        Abril 2018 - Actualidad
+                                        Abr 2019 - Actualidad
                                     </span>
 
                                 </div>
                             </div>
 
                             <div class="quali__data">
-                                <h3 class="quali__area">IMPA-Instituto de Matemática Pura y Aplicada </h3>
+                                <span class="quali__area"><b>Training in neural networks and time series, </b></span>
+                                <br>
+                                <a class="quali__link" href="https://www.pucp.edu.pe/">Universidad Católica del Perú</a>
                                 <div class="quali__box">
                                     <span class="quali__work">
                                         <i class='bx bxs-book quali__icon' ></i>
-                                        Programa de verano-Análise na Reta
+                                        I finished the course with a grade of 17/20, where the following topics were evaluated (with Python and R):
+                                        <ol>
+                                            <li>Introduction to time series AR, MA, ARMA models</li>
+                                            <li>ARIMA integrated models, seasonality, SARIMA</li>
+                                            <li>Series models with exogenous regressors, SARIMAX models</li>
+                                            <li>Introduction to multilayer perceptron-like neural networks</li>
+                                            <li>Forecasting with Neural Networks</li>
+                                            <li>Recurring type networks applied to time series</li>
+                                            <li>LSTM type networks</li>
+                                        </ol>
+                                        <a class="quali__link" href="https://drive.google.com/file/d/1uObypvyaBsnKhV0JPyhrS5xPMG4plujt/view">See certificate</a>
                                     </span>
                                     <span class="quali__work">
                                         <i class='bx bx-calendar-alt quali__icon' ></i>
-                                        04/01/2021-28/02/2021
+                                        abr 2022 - jun 2022
                                     </span>
-
                                 </div>
-                            </div>
+                                
                             <div class="quali__data">
-                                <h3 class="quali__area">Britanico-Escuela de idiomas </h3>
+                                <span class="quali__area"><b>Training in design and development of macros, </b></span>
+                                <br>
+                                <a class="quali__link" href="https://www.pucp.edu.pe/">Universidad Católica del Perú</a>
                                 <div class="quali__box">
                                     <span class="quali__work">
                                         <i class='bx bxs-book quali__icon' ></i>
-                                        Basico 01-intermedio 02
+                                        I finished the course with a grade of 20/20, where the following topics were evaluated (with VBA):
+                                        <ol>
+                                            <li>Control Structures</li>
+                                            <li>User Defined Functions (UDFs)</li>
+                                            <li>Form Management</li>
+                                            <li>Pivot tables with VBA</li>
+                                            <li>Database integration</li>
+                                        </ol>
+                                        <a class="quali__link" href="https://drive.google.com/file/d/1FMqygQfjMroLQDJDW_6tZMFAsXjxNys7/view">See certificate</a>
                                     </span>
                                     <span class="quali__work">
                                         <i class='bx bx-calendar-alt quali__icon' ></i>
-                                        2016-Diciembre 2017
+                                        abr 2022 - jun 2022
                                     </span>
-
                                 </div>
-                            </div>
 
+                            </div>
+                  
                         </div>
                     </div>
-                </div>
-            </section>
-
-
-            <!--===== PROJECT IN MIND =====-->
-            <section class="project section bd-container" id="projects">
-                <div class="project__container bd-grid">
-                  <div class="project__data">
-                    <i class='bx bxs-chat project__icon' ></i>
-                    <div>
-                        <h2 class="project__title project-tile">Proyectos en mente</h2>
-                        <p class="project__desc">Te cuento un poco sobre mis planes a futuro.</p>
-                    </div>
-                    <div>
-                        <a href="#" class="button button-white">Proximamente aquí!</a>
-                    </div>
-                  </div>
-
                 </div>
             </section>
 
             <!--===== PORTFOLIO =====-->
             <section class="portfolio section bd-container" id="portfolio">
-                <span class="section-subtitle">Proyectos recientes</span>
+                <span class="section-subtitle">I have something to show you</span>
                 <h2 class="section-title">Portfolio</h2>
                 <div class="portfolio__nav">
-                    <span class="portfolio__item active--portfolio"data-filter="all">Todo</span>
-                    <span class="portfolio__item" data-filter=".web">Revistas</span>
+                    <span class="portfolio__item active--portfolio"data-filter="all">All</span>
+                    <span class="portfolio__item" data-filter=".web">Magazine's</span>
                     <span class="portfolio__item" data-filter=".ux">CSS y HTML</span>
                     <span class="portfolio__item" data-filter=".app">Javascript</span>
                 </div>
@@ -305,56 +326,26 @@
                 </div>
             </section>
 
-            <!--===== TESTIMONIAL =====-->
-            <section class="reviews section bd-container"  id='welcome-section'>
-                <span class="section-subtitle">Proyecto de</span>
-                <h1 class="section-title">Desarrollo Web-Movil</h1>
-
-                <div class="reviews__container swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="reviews__content swiper-slide">
-                            <img src="assets/Mati.jpg" alt="" class="reviews__img">
-                            <h3 class="reviews__title">Matias Solis</h3>
-                            <span class="reviews__client">Estudiante de Tecnicatura en programación-UNSAM-Buenos Aires.</span>
-                            <p class="reviews__desc">Mati hace maquetados extraordinarios de hermosos diseños propuestos.</p>
-                        </div>
-                        <div class="reviews__content swiper-slide">
-                            <img src="assets/Flavix.jpg" alt="" class="reviews__img">
-                            <h3 class="reviews__title">Flavio Bravo</h3>
-                            <span class="reviews__client">Estudiante de Ingenieria Ambiental-UPC-Lima-Perú.</span>
-                            <p class="reviews__desc">Fulvix mira que todo suceda correctamente en el desarrollo Backend.</p>
-                        </div>
-                        <div class="reviews__content swiper-slide">
-                            <img src="assets/anonimo.jpg" alt="" class="reviews__img">
-                            <h3 class="reviews__title">Anonymous </h3>
-                            <span class="reviews__client">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-                            <p class="reviews__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam quis possimus officia, explicabo cupiditate at eaque temporibus atque neque, cumque nisi corrupti alias itaque, ducimus quaerat molestias et velit vitae!</p>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-                </section>
-
             <!--===== CONTACTME =====-->
             <section class="contact section bd-container" id="contact">
-                <span class="section-subtitle">Dejanos ayudarte en tus proyectos</span>
-                <h2 class="section-title">Contactanos</h2>
+                <span class="section-subtitle">How to contact me?</span>
+                <h2 class="section-title">Contact</h2>
                 <div class="contact__container bd-grid">
                     <div class="contact__content bd-grid">
                         <div class="contact__box">
                             <i class='bx bxs-home contact-icon'></i>
                             <h3 class="contact__title">Localización</h3>
-                            <span class="contact__desc">Navarro 2448-Agronomia-CABA-Argentina.</span>
+                            <span class="contact__desc">Capital Federal, Argentina.</span>
                         </div>
                         <div class="contact__box">
                             <i class='bx bxs-phone contact-icon'></i>
                             <h3 class="contact__title">Telefono</h3>
-                            <span class="contact__desc">+54 1126418111</span>
+                            <span class="contact__desc">1126418111</span>
                         </div>
                         <div class="contact__box">
                             <i class='bx bxs-envelope contact-icon'></i>
                             <h3 class="contact__title">E-mail</h3>
-                            <span class="contact__desc">estebansergio618 <br> @gmail.com</span>
+                            <span class="contact__desc">smunoz@dc.uba.ar</span>
                         </div>
                         <div class="contact__box">
                             <i class='bx bxs-chat contact-icon'></i>
@@ -384,8 +375,8 @@
         <!--===== FOOTER =====-->
         <footer class="footer">
             <div class="footer__container bd-container">
-                <h1 class="footer__title">Esteban Muñoz</h1>
-                <p class="footer__desc">Este es mi sitio web personal, encuentra sobre mi aqui.</p>
+                <h1 class="footer__title">Thank You!</h1>
+                <p class="footer__desc">I hope you have been interested in my professional profile.</p>
 
                 <div class="footer__social">
                     <a href="https://www.facebook.com/estebansergio618" class="footer__link"><i class='bx bxl-facebook' ></i></a>
@@ -393,7 +384,7 @@
                     <a href="https://www.instagram.com/eltigre618/" class="footer__link"><i class='bx bxl-instagram' ></i></a>
                     <a href="https://api.whatsapp.com/send?phone=541126418111&text=Hola Sergio, comunicate conmigo!" class="footer__link"><i class='bx bxl-whatsapp' ></i></a>
                 </div>
-                <p class="footer__copy">&#169; 2021 This project is Done by an inspiration of the Portfolio Project required from the Freecodecamp.org projects. It also include some enhancements and a little bit of changes.</p>
+                <p class="footer__copy">&#169; 2021 Sergio Esteban.</p>
             </div>
         </footer>
 
