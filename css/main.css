@@ -628,7 +628,7 @@ color: var(--first-color-light);
 /*===== MEDIA QUERIES =====*/
 @media screen and (min-width: 576px){
 .home__img img{
- width: 300px;
+ width: 400px;
 }
 .about__container, .services__container, .portfolio__container{
   grid-template-columns: repeat(2,1fr);
