@@ -62,14 +62,11 @@
                         <a href="https://github.com/estebansergio618" class="home__social-icon" >
                             <i class='bx bxl-github' ></i>
                         </a>
-                        <a href="https://www.instagram.com/eltigre618/" class="home__social-icon">
-                            <i class='bx bxl-instagram'></i>
-                        </a>
                         <a href="https://api.whatsapp.com/send?phone=541126418111&text=Hola Sergio, comunicate conmigo!" class="home__social-icon">
                             <i class='bx bxl-whatsapp'></i>
                         </a>
-                        <a href="https://m.me/estebansergio618" class="home__social-icon">
-                            <i class='bx bxl-messenger'></i>
+                        <a href="https://www.linkedin.com/in/estebansergio618/" class="home__social-icon">
+                            <i class="fa-brands fa-linkedin"></i>
                         </a>
 
                     </div>
@@ -111,7 +108,7 @@
 
                         </div>
 
-                        <img src="assets/me1.0.jpeg" alt="" class="about__img">
+                        <img src="assets/S_FORMAL_B.jpeg" alt="" class="about__img">
                 </div>
             </section>
 
@@ -334,13 +331,13 @@
                     <div class="contact__content bd-grid">
                         <div class="contact__box">
                             <i class='bx bxs-home contact-icon'></i>
-                            <h3 class="contact__title">Localización</h3>
-                            <span class="contact__desc">Capital Federal, Argentina.</span>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__desc">Capital Federal, Argentina</span>
                         </div>
                         <div class="contact__box">
                             <i class='bx bxs-phone contact-icon'></i>
-                            <h3 class="contact__title">Telefono</h3>
-                            <span class="contact__desc">1126418111</span>
+                            <h3 class="contact__title">Phone</h3>
+                            <span class="contact__desc">+54 11 26418111</span>
                         </div>
                         <div class="contact__box">
                             <i class='bx bxs-envelope contact-icon'></i>
@@ -350,22 +347,21 @@
                         <div class="contact__box">
                             <i class='bx bxs-chat contact-icon'></i>
                             <h3 class="contact__title">Chat</h3>
-                            <a href="https://api.whatsapp.com/send?phone=541126418111&text=Hola Sergio, comunicate conmigo." class="contact__social"><i class='bx bxl-whatsapp' ></i>
-                            <a href="https://m.me/estebansergio618" class="contact__social"><i class='bx bxl-messenger'></i>
-                            <a href="https://api.whatsapp.com/send?phone=541126418111&text=Hola Sergio, comunicate conmigo." class="contact__social"><i class='bx bxl-telegram' ></i>
-                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=541126418111&text=Hola Sergio, comunicate conmigo." class="contact__social"><i class='bx bxl-whatsapp' ></i></a>
                         </div>
                     </div>
-                    <form action="mailto:estebansergio618@gmail.com" class="contact__form" method="post" enctype="text/plain">
+
+                    <!--===== FORM =====-->
+                    <form action="php/enviar.php" class="contact__form" method="POST" enctype="text/plain">
                         <div class="contact__inputs">
-                            <input type="text" placeholder ="Nombre" class="contact__input">
-                            <input type="email" placeholder ="Email" class="contact__input">
+                            <input name = 'nombre' type="text" placeholder ="Name" class="contact__input">
+                            <input name = 'email' type="email" placeholder ="E-mail" class="contact__input">
                         </div>
                         <div class="contact__inputs">
-                            <input type="text" placeholder ="Proyecto" class="contact__input">
-                            <input type="number" placeholder ="Número telefónico" class="contact__input">
+                            <input name = 'asunto' type="text" placeholder ="Project" class="contact__input">
+                            <input name = 'telefono' type="number" placeholder ="Phone number" class="contact__input">
                         </div>
-                        <textarea class="contact__input" placeholder="Cuentame!"name="" id="" cols="0" rows="7"></textarea>
+                        <textarea class="contact__input" placeholder="tell me!" name="mensaje" id="" cols="0" rows="7"></textarea>
                         <div class="send__button"><input type="submit" value="Enviar" class="button contact__button"></form></div>
                     </form>
                 </div>
@@ -379,9 +375,7 @@
                 <p class="footer__desc">I hope you have been interested in my professional profile.</p>
 
                 <div class="footer__social">
-                    <a href="https://www.facebook.com/estebansergio618" class="footer__link"><i class='bx bxl-facebook' ></i></a>
                     <a href="https://github.com/estebansergio618" class="footer__link" id="profile-link" target="_blank"><i class='bx bxl-github' ></i></a>
-                    <a href="https://www.instagram.com/eltigre618/" class="footer__link"><i class='bx bxl-instagram' ></i></a>
                     <a href="https://api.whatsapp.com/send?phone=541126418111&text=Hola Sergio, comunicate conmigo!" class="footer__link"><i class='bx bxl-whatsapp' ></i></a>
                 </div>
                 <p class="footer__copy">&#169; 2021 Sergio Esteban.</p>
