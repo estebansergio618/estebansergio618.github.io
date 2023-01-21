@@ -1,5 +1,7 @@
-const form = document.querySelector('.contact__form');
-form.addEventListener('submit', function(event) {
+function enviar(){
+
+  const form = document.querySelector('.contact__form');
+  form.addEventListener('submit', function(event) {
   event.preventDefault();
   // validation code here
   if (form.nombre.value && form.email.value && form.asunto.value && form.telefono.value && form.mensaje.value) {
@@ -19,10 +21,10 @@ form.addEventListener('submit', function(event) {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-          personalizations: [{
-              to: [{ email: "semunoz@dc.uba.ar", name: "Sergio"}],
+        personalizations: [{
+              to: [{ email: "estebansergio618@gmail.com", name: "Sergio"}],
               subject: "WPS_" + form.asunto.value
-          }],
+            }],
           from: { from: { email: form.email.value, name: form.nombre.value },
         },
           content: [{
@@ -34,14 +36,14 @@ form.addEventListener('submit', function(event) {
     .then(response => {
         if(response.ok)
             return response.json()
-        throw new Error('Error');
-    })
+            throw new Error('Error');
+          })
     .then(data => {
-        console.log(data);
+      console.log(data);
         alert('Email sent successfully');
     })
     .catch(error => {
-        console.error(error);
+      console.error(error);
         alert('Error sending email');
     });
   } else {
@@ -49,3 +51,4 @@ form.addEventListener('submit', function(event) {
     alert('Please fill in all required fields');
   }
 });
+}

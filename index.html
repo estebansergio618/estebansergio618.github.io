@@ -352,7 +352,7 @@
                     </div>
 
                     <!--===== FORM =====-->
-                    <form action="js/enviar.js" class="contact__form" method="POST" enctype="text/plain">
+                    <form action="" class="contact__form" method="POST" enctype="text/plain">
                         <div class="contact__inputs">
                             <input name = 'nombre' type="text" placeholder ="Name" class="contact__input">
                             <input name = 'email' type="email" placeholder ="E-mail" class="contact__input">
@@ -362,7 +362,10 @@
                             <input name = 'telefono' type="number" placeholder ="Phone number" class="contact__input">
                         </div>
                         <textarea class="contact__input" placeholder="tell me!" name="mensaje" id="" cols="0" rows="7"></textarea>
-                        <div class="send__button"><input type="submit" value="Send" class="button contact__button"></form></div>
+                        <div class="send__button">
+                            <input type="submit" value="Send" class="button contact__button" onclick="enviar()">
+                        </form>
+                    </div>
                     </form>
                 </div>
             </section>
@@ -397,6 +400,6 @@
 
         <!--===== MAIN JS =====-->
         <script src="js/content.js"></script>
-
+        <script src="js/enviar.js" ></script>
     </body>
 </html>
