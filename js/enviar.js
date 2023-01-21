@@ -17,7 +17,7 @@ function enviar(){
     fetch('https://api.sendgrid.com/v3/mail/send', {
       method: 'POST',
       headers: {
-        'Authorization': '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',
+        'Authorization': '',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
